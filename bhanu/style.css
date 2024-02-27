@@ -1,0 +1,67 @@
+*{
+    font-family: Calibri;
+}
+.main{
+    max-width: 80%;
+    margin-top: 20vh;
+    height: 60vh;
+    margin-bottom: 20vh;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.headingsorwhatever{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    padding-left: 25%;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+img{
+    height: 55px;
+    padding-top: 15px;
+    padding-right: 25%;
+}
+.para{
+    margin-left: 10%;
+    padding-left: 10%;
+    margin-right: 10%;
+    font-size: 2rem;
+}
+#formm{
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-left: 15%;
+    padding-left: 10%;
+    margin-right: 10%;
+}
+.INPUT{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+    margin-left: 20px;
+}
+.cvc{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+    margin-left: 79px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    border: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightblue;
+    transition: 300ms;
+}
